@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --youtube: #fe0000;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color :white;
+    background-color: #6B33FF;
+}
+
+button:hover{
+    background-color: #4722ad;
+}
+
+
+.menutop{
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: black;  
+}
+
+.menutop a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.menutop a:hover{
+    color: yellow;
+}
+
+header{
+    background-color: rgb(245,245,245);
+    width: 100%;
+    margin-top: 35px;
+    position: fixed;
+}
+
+header .cabecera{
+    height: 120px;
+    position: relative;
+}
+
+header .iconos{
+    position: relative;
+    left: 90%;
+    top: 45%;
+    
+}
+
+header a{
+    margin: 0 5px;
+    
+}
+
+header .img-container{
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-image: url("imagenes/logo2.jpg");
+    background-size: 170px;
+    height: 100px;
+    width: 100px;
+    top: 7px;
+    left: 5%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+    
