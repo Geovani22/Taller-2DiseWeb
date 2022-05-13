@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --facebook: #3b5999;
-    --instagram: #e4405f;
-    --twitter: #55acee;
-    --youtube: #fe0000;
-}
 
 html{
     scroll-behavior: smooth;
@@ -46,6 +40,7 @@ button:hover{
     text-align: center;
     width: 100%;
     background-color: black;  
+   
 }
 
 .menutop a{
@@ -72,34 +67,30 @@ header .cabecera{
 }
 
 header .iconos{
-    position: relative;
+    position: absolute;
     left: 75%;
-    top: 30%;
-    margin: auto;
+    top: 20%;
+    font-size: 40px;
+    
+    
     
 }
 
-header a{
+.iconos a{
     padding: 10px 10px;
-    background: black;
-    color: #fff;
     text-decoration: none;
-    line-height: 50px;
-    font-size: 30px;
-    margin: 0 8px;
-    box-shadow: 0 3px 5px 0px rgba(0,0,0, .2)
+    background: black;
+    color: white;
+    box-shadow: 0 3px 5px 0px rgba(0,0,0, .2);
+    margin: 0 5px;
 }
 
-header :hover a{
-
+.cabecera :hover a{
     filter: blur(2px);
+}
 
-}
-header .iconos a:hover{
-    box-shadow: 0 5px 5px 0px rgba(0,0,0, .4);
-    transform: translateY(-3px) scale(1.05);
-    filter: none;
-}
+
+
 
 header .img-container{
     position: absolute;
@@ -108,10 +99,13 @@ header .img-container{
     background-size: 170px;
     height: 100px;
     width: 100px;
-    top: 7px;
+    top: 10px;
     left: 5%;
     background-position: center center;
     background-repeat: no-repeat;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 
 
