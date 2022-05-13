@@ -75,6 +75,7 @@ header .iconos{
     position: relative;
     left: 75%;
     top: 30%;
+    margin: auto;
     
 }
 
@@ -89,10 +90,15 @@ header a{
     box-shadow: 0 3px 5px 0px rgba(0,0,0, .2)
 }
 
-header a:hover{
+header :hover a{
 
     filter: blur(2px);
+
+}
+header .iconos a:hover{
+    box-shadow: 0 5px 5px 0px rgba(0,0,0, .4);
     transform: translateY(-3px) scale(1.05);
+    filter: none;
 }
 
 header .img-container{
