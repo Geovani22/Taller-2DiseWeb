@@ -87,8 +87,11 @@ header a{
     font-size: 30px;
     margin: 0 8px;
     box-shadow: 0 3px 5px 0px rgba(0,0,0, .2)
-    
-    
+}
+
+header a:hover{
+
+    filter: blur(2px);
 }
 
 header .img-container{
