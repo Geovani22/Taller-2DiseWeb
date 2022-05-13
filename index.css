@@ -92,6 +92,7 @@ header a{
 header a:hover{
 
     filter: blur(2px);
+    transform: translateY(-3px) scale(1.05);
 }
 
 header .img-container{
