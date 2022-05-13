@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+:root{
+    --facebook: #3b5998;
+    --instagram: #c82f86;
+    --twitter: #00acee;
+    --youtube: #fe0000;
+}
 
 html{
     scroll-behavior: smooth;
@@ -83,12 +89,31 @@ header .iconos{
     color: white;
     box-shadow: 0 3px 5px 0px rgba(0,0,0, .2);
     margin: 0 5px;
+    border-radius: 3px;
 }
 
 .cabecera :hover a{
     filter: blur(2px);
 }
 
+.iconos a:hover{
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0,0, .4);
+    filter: none;
+}
+
+.iconos #facebook:hover{
+    background: var(--facebook);
+}
+.iconos #youtube:hover{
+    background: var(--youtube);
+}
+.iconos #twitter:hover{
+    background: var(--twitter);
+}
+.iconos #instagram:hover{
+    background: var(--instagram);
+}
 
 
 
