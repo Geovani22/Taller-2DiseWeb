@@ -31,8 +31,18 @@ h3{ font-size: 2em;}
     
     padding-top: 150px;
     background-color: yellow;
+    height: 350px;
+  
+}
+#contenido article{
+    float: left;
     
 }
+
+
+    
+   
+
 #subcontenido{
     height: 250px;
     width:80%;
