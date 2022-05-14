@@ -36,8 +36,8 @@ button{
 }
 
 button:hover{
-    background-color: black;
-    color: white;
+    background-color: yellow;
+    color: black;
 }
 
 
@@ -184,10 +184,16 @@ header .img-container{
     text-align: center;
 }
 
+#nuestros-cursos .container h2{
+    margin-top: 0%;
+    padding-top: 20px;
+}
+
 .carta h3 {
-    margin-top: 210px;
+    margin-top: 215px;
     margin-bottom: 0px;
 }
+
 
 .carta p{
     margin-top: 1px;
@@ -198,13 +204,11 @@ header .img-container{
     left: 5%;
     height: 200px;
     width: 200px;
-    background-image: linear-gradient(0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    )
-    ,url("imagenes/html.png");
+    background-image: 
+    url("imagenes/html.png");
     background-position: center;
     background-size: cover;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
     
 }
 
@@ -213,11 +217,10 @@ header .img-container{
     left: 25%;
     height: 200px;
     width: 200px;
-    background-image: linear-gradient(0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    )
-    ,url("imagenes/logo2.jpg");
+    background-image: url("imagenes/css.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
 
 .carta:nth-child(3){
@@ -225,11 +228,14 @@ header .img-container{
     left: 45%;
     height: 200px;
     width: 200px;
-    background-image: linear-gradient(0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    )
-    ,url("imagenes/logo2.jpg");
+    background-image: url("imagenes/js.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f7df1d;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+    
+    
 }
 
 .carta:nth-child(4){
@@ -237,11 +243,10 @@ header .img-container{
     left: 65%;
     height: 200px;
     width: 200px;
-    background-image: linear-gradient(0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    )
-    ,url("imagenes/logo2.jpg");
+    background-image: url("imagenes/java.png");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
 
 .carta:nth-child(5){
@@ -249,13 +254,24 @@ header .img-container{
     left: 85%;
     height: 200px;
     width: 200px;
-    background-image: linear-gradient(0deg,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    )
-    ,url("imagenes/logo2.jpg");
+    background-image: url("imagenes/php.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
 
+
+footer p{
+    text-align: center;
+    color: rgb(100,100,100);
+    font-weight: bold;
+}
+
+hr{
+    width: 50%;
+    background-color: rgb(100,100,100);
+    height: 3px;
+}
 
 
 
