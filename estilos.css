@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-
+    
+    padding: 0px;
 }
 
 :root{
@@ -38,14 +39,14 @@ h3{ font-size: 2em;}
 }
 #otroscursos{
     width:80%;
-    
+    float: left;
     background-color: aqua;
 }
 aside{
     width: 20%;
-    height: 700px;
-    float: left;
-    background-color:#fe0000;
+    height: 500px;
+    float:right;
+    background-color: #fe0000;
 }
 
 .clearfix{
@@ -111,11 +112,11 @@ header .iconos{
     font-size: 40px;
 
 }
+
 footer{
-    
+    float: left;
     text-align: center;
     width: 100%;
-    float: left;
     background-color: #6B33FF;
 }
 
@@ -169,10 +170,91 @@ header .img-container{
     border-style: solid;
 }
 
+#Otros-cursos{
+    background-color: rgb(30,30,30);
+    color:white;
+    float: left;
+    width: 80%;
+    height: 1000px;
+}
+
+#Otros-cursos .container{
+    width: 100%;
+    height: 100%;
+}
 
 
 
-
-
-
+.carta h3 {
+    margin-bottom: 0px;
     
+}
+
+
+.carta p{
+    margin-top: 1px;
+  
+}
+
+.carta:first-child{
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-image: url("imagenes/css.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f7df1d;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+}
+
+.carta:nth-child(2){
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("imagenes/js.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f7df1d;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+}
+
+.carta:nth-child(3){
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("imagenes/java.png");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+}
+
+.carta:nth-child(4){
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("imagenes/php.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+}
+
+hr{
+    width: 50%;
+    background-color: rgb(100,100,100);
+    height: 3px;
+}
+
+nav{
+    height: 150px;
+}
+
+#Otros-cursos nav h3{
+    margin-left: 50px;
+   float: left;
+}
+#Otros-cursos nav p{
+   
+   float: right;
+}
