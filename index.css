@@ -179,14 +179,16 @@ header .img-container{
 }
 
 #nuestros-cursos .container{
-    position: relative;
     height: 500px;
     text-align: center;
+    margin: 0 40px;
+    
 }
 
 #nuestros-cursos .container h2{
     margin-top: 0%;
     padding-top: 20px;
+    
 }
 
 .carta h3 {
@@ -201,7 +203,7 @@ header .img-container{
 
 .carta:first-child{
     position: absolute;
-    left: 5%;
+    
     height: 200px;
     width: 200px;
     background-image: 
@@ -214,7 +216,7 @@ header .img-container{
 
 .carta:nth-child(2){
     position: absolute;
-    left: 25%;
+    left: 22%;
     height: 200px;
     width: 200px;
     background-image: url("imagenes/css.png");
@@ -225,7 +227,7 @@ header .img-container{
 
 .carta:nth-child(3){
     position: absolute;
-    left: 45%;
+    left: 42%;
     height: 200px;
     width: 200px;
     background-image: url("imagenes/js.jpg");
@@ -240,7 +242,7 @@ header .img-container{
 
 .carta:nth-child(4){
     position: absolute;
-    left: 65%;
+    left: 62%;
     height: 200px;
     width: 200px;
     background-image: url("imagenes/java.png");
@@ -251,7 +253,7 @@ header .img-container{
 
 .carta:nth-child(5){
     position: absolute;
-    left: 85%;
+    left: 82%;
     height: 200px;
     width: 200px;
     background-image: url("imagenes/php.jpg");
