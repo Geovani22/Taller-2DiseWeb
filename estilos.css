@@ -207,7 +207,11 @@ header .img-container{
     height: 100px;
     width: 400px;
 }
-
+.precio-otros-cursos{
+    float: right;
+    height: 100px;
+    width: 400px;
+}
 .img1{
     height: 100px;
     width: 100px;
@@ -272,9 +276,17 @@ nav{
 
 }
 #Otros-cursos nav h3{
-    
-    float: right;
+    width: 200px;
+    float: left;
 
+}
+#Otros-cursos nav a{
+    border: 20px;
+    margin-top: 45px;
+
+}
+.like{
+    float: right;
 }
 
 
