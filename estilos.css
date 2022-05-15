@@ -28,7 +28,7 @@ body{
 }
 
 
-h2{ font-size: 2.7em;}
+h2{ font-size: 2em;}
 h3{ font-size: 2em;}
 
 
@@ -180,7 +180,7 @@ header .img-container{
 
 #Otros-cursos{
     padding-left: 150px;
-    background-color: green;
+    background-color: #6B33FF;
     color:white;
     float: left;
     width: 80%;
@@ -200,6 +200,12 @@ header .img-container{
 .carta p{
     margin-top: 1px;
   
+}
+
+.otros-cursos-info{
+    float: left;
+    height: 100px;
+    width: 400px;
 }
 
 .img1{
@@ -256,7 +262,7 @@ nav{
     height: 150px;
 }
 #Otros-cursos nav h2{
-    
+    margin: 10px;
     float: left;
 
 }
