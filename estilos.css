@@ -34,7 +34,7 @@ h3{ font-size: 2em;}
 
 #contenido{
     
-    padding-top: 150px;
+    padding: 150px;
     background-color: yellow;
     height: 450px;
   
@@ -45,16 +45,13 @@ h3{ font-size: 2em;}
 }
 
 #subcontenido{
+    padding: 150px;
     height: 250px;
     width:80%;
     float: left;
     background-color: aqua;
 }
-#otroscursos{
-    width:80%;
-    float: left;
-    background-color: aqua;
-}
+
 aside{
     width: 20%;
     height: 950px;
@@ -184,17 +181,15 @@ header .img-container{
 }
 
 #Otros-cursos{
-    background-color: rgb(30,30,30);
+    padding-left: 150px;
+    background-color: green;
     color:white;
     float: left;
     width: 80%;
-    height: 700px;
+    height: 800px;
 }
 
-#Otros-cursos .container{
-    width: 100%;
-    height: 100%;
-}
+
 
 
 
@@ -261,10 +256,9 @@ nav{
 }
 
 #Otros-cursos nav h3{
-    margin-left: 50px;
-   float: left;
+    
+    float: right;
+
 }
-#Otros-cursos nav p{
-   
-   float: right;
-}
+
+
