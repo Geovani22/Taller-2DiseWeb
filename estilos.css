@@ -1,119 +1,122 @@
-*{
+* {
     box-sizing: border-box;
-    
+
     padding: 0px;
 }
 
-:root{
+:root {
     --facebook: #3b5998;
     --instagram: #c82f86;
     --twitter: #00acee;
     --youtube: #fe0000;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
-#buscador{
+#buscador {
     position: absolute;
     left: 350px;
-    top:100px
+    top: 100px
 }
 
+h2 {
+    font-size: 2em;
+}
 
-h2{ font-size: 2em;}
-h3{ font-size: 2em;}
+h3 {
+    font-size: 2em;
+}
 
-
-#contenido{
-    padding: 150px;
+#contenido {
+    padding-top: 150px;
+    padding-inline: 100px;
     border: #fe0000 1px;
-    height: 450px;
-  
+    height: 100%;
+
 }
 
-#contenido article{
+#contenido article {
     float: left;
 }
 
-#subcontenido{
+#subcontenido {
     padding: 150px;
     height: 250px;
-    width:80%;
+    width: 80%;
     float: left;
 }
 
-aside{
+aside {
+    
     width: 20%;
     height: 950px;
-    float:right;
+    float: right;
     background-color: #fe0000;
 }
 
-.clearfix{
-    clear:bot;
+.clearfix {
+    clear: bot;
 }
 
-button{
+button {
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
-    border: 1px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color :white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
     background-color: #6B33FF;
 }
 
-button:hover{
+button:hover {
     background-color: #4722ad;
 }
 
-
-.menutop{
+.menutop {
     position: fixed;
     padding: 10px;
     text-align: center;
     width: 100%;
-    background-color: black;  
-   
+    background-color: black;
+
 }
 
-.menutop a{
+.menutop a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: white;
 }
 
-.menutop a:hover{
+.menutop a:hover {
     color: yellow;
 }
 
-header{
-    background-color: rgb(245,245,245);
+header {
+    background-color: rgb(245, 245, 245);
     width: 100%;
     height: 130px;
- 
+
     position: fixed;
-  
- }
 
-
-header .cabecera{
-    height: 120px;
-    position: relative;
-    
 }
 
-header .iconos{
+header .cabecera {
+    height: 120px;
+    position: relative;
+
+}
+
+header .iconos {
     position: absolute;
     left: 75%;
     top: 20%;
@@ -121,50 +124,52 @@ header .iconos{
 
 }
 
-footer{
+footer {
     float: left;
     text-align: center;
     width: 100%;
     background-color: #6B33FF;
 }
 
-
-.iconos a{
+.iconos a {
     padding: 10px 10px;
     text-decoration: none;
     background: black;
     color: white;
-    box-shadow: 0 3px 5px 0px rgba(0,0,0, .2);
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
     margin: 0 5px;
     border-radius: 3px;
 }
 
-.cabecera :hover a{
+.cabecera :hover a {
     filter: blur(2px);
 }
 
-.iconos a:hover{
+.iconos a:hover {
     transform: translate(-3px) scale(1.05);
-    box-shadow: 0 5px 5px 0px rgba(0,0,0, .4);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
     filter: none;
 }
 
-.iconos #facebook:hover{
+.iconos #facebook:hover {
     background: var(--facebook);
 }
-.iconos #youtube:hover{
+
+.iconos #youtube:hover {
     background: var(--youtube);
 }
-.iconos #twitter:hover{
+
+.iconos #twitter:hover {
     background: var(--twitter);
 }
-.iconos #instagram:hover{
+
+.iconos #instagram:hover {
     background: var(--instagram);
 }
 
-header .img-container{
+header .img-container {
     position: absolute;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     background-image: url("imagenes/logo2.jpg");
     background-size: 170px;
     height: 100px;
@@ -178,41 +183,37 @@ header .img-container{
     border-style: solid;
 }
 
-#Otros-cursos{
+#Otros-cursos {
     padding-left: 150px;
-    background-color: #6B33FF;
-    color:white;
+    color: white;
     float: left;
     width: 80%;
     height: 800px;
 }
 
-
-
-
-
 .carta h3 {
     margin-bottom: 0px;
-    
+
 }
 
-
-.carta p{
+.carta p {
     margin-top: 1px;
-  
+
 }
 
-.otros-cursos-info{
+.otros-cursos-info {
     float: left;
     height: 100px;
-    width: 400px;
+    width: 50%;
 }
-.precio-otros-cursos{
+
+.precio-otros-cursos {
     float: right;
     height: 100px;
-    width: 400px;
+    width: 30%;
 }
-.img1{
+
+.img1 {
     height: 100px;
     width: 100px;
     float: left;
@@ -224,7 +225,7 @@ header .img-container{
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
 
-.img2{
+.img2 {
     height: 100px;
     width: 100px;
     float: left;
@@ -236,57 +237,88 @@ header .img-container{
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
 
-.img3{
+.img3 {
     height: 100px;
     width: 100px;
-    float:left;
+    float: left;
     background-image: url("imagenes/java.png");
     background-position: center;
     background-size: cover;
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
 
-.img4{
+.img4 {
     height: 100px;
     width: 100px;
-    float:left;
+    float: left;
     background-image: url("imagenes/php.jpg");
     background-position: center;
     background-size: cover;
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
 
-hr{
+hr {
     width: 90%;
-    background-color: rgb(100,100,100);
+    background-color: rgb(100, 100, 100);
     height: 3px;
 }
 
-nav{
+nav {
     height: 150px;
 }
-#Otros-cursos nav h2{
+
+#Otros-cursos nav h2 {
     margin: 10px;
     float: left;
 
 }
-#Otros-cursos nav p{
-    
+
+#Otros-cursos nav p {
+
     float: left;
 
 }
-#Otros-cursos nav h3{
+
+#Otros-cursos nav h3 {
     width: 200px;
     float: left;
 
 }
-#Otros-cursos nav a{
+
+#Otros-cursos nav a {
     border: 20px;
     margin-top: 45px;
 
 }
-.like{
+#Otros-cursos .container{
+    width: 900px;
+    margin: 1 20px;
+    background-color: black;
+    border: #6B33FF;
+    border-style: solid;
+    border-width: 2px;
+}
+#contenido .container{
+    width: 100%;
+    margin: 1 20px;
+    background-color: #6B33FF;
+    border: #fe0000 1px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+}
+#subcontenido .container{
+    width: 900px;
+    margin: 1 20px;
+    background-color: #6B33FF;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+.img-container{
+
+}
+.like {
     float: right;
 }
-
-
