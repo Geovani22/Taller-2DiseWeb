@@ -293,6 +293,7 @@ nav {
 #subcontenido .container{
     width: 800px;
     margin: 1 20px;
+    padding: 20px;
     border: black;
     border-style: solid;
     border-width: 2px;
