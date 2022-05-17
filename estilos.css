@@ -55,11 +55,10 @@ h3 {
 }
 
 aside {
-    
     width: 20%;
     height: 950px;
+    padding: 50px 0px 0px 50px;
     float: right;
-    background-color: #fe0000;
 }
 
 .clearfix {
@@ -297,18 +296,20 @@ nav {
     border-style: solid;
     border-width: 2px;
 }
-#contenido .container{
-    width: 900px;
-    margin: 1 20px;
-    background-color: #6B33FF;
-    border: #fe0000 1px;
-    border: black;
-    border-style: solid;
-    border-width: 2px;
-}
+
 #subcontenido .container{
     width: 900px;
     margin: 1 20px;
+    background-color: #6B33FF;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+aside .container{
+    width: 200px;
+    height: 900px;
+    margin: 1 10px;
     background-color: #6B33FF;
     border: black;
     border-style: solid;
