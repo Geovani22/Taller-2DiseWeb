@@ -35,10 +35,6 @@ h3 {
     font-size: 2em;
 }
 
-.clearfix {
-    clear: bot;
-}
-
 button {
     font-size: 1.5em;
     font-weight: bold;
@@ -166,7 +162,6 @@ aside {
 
 #Otros-cursos {
     padding-left: 150px;
-    color: white;
     float: left;
     width: 70%;
     height: 800px;
@@ -183,20 +178,30 @@ aside {
 }
 
 .otros-cursos-info {
+    margin-left: 20px;
     float: left;
     height: 100px;
-    width: 50%;
+    width: 350px;
 }
 
 .precio-otros-cursos {
+    margin-left: 30px;
+    text-align: center;
+    float: left;
+    height: 100px;
+    width: 150px;
+}
+.iconos-otros-cursos {
+    margin: 25px 20px 20px 50px;
     float: right;
     height: 100px;
-    width: 30%;
+    width: 50px;
 }
 
 .img1 {
     height: 100px;
     width: 100px;
+    margin-left: 20px;
     float: left;
     background-image: url("imagenes/css.png");
     background-size: cover;
@@ -209,6 +214,7 @@ aside {
 .img2 {
     height: 100px;
     width: 100px;
+    margin-left: 20px;
     float: left;
     background-image: url("imagenes/js.jpg");
     background-size: contain;
@@ -221,6 +227,7 @@ aside {
 .img3 {
     height: 100px;
     width: 100px;
+    margin-left: 20px;
     float: left;
     background-image: url("imagenes/java.png");
     background-position: center;
@@ -231,6 +238,7 @@ aside {
 .img4 {
     height: 100px;
     width: 100px;
+    margin-left: 20px;
     float: left;
     background-image: url("imagenes/php.jpg");
     background-position: center;
@@ -247,9 +255,12 @@ hr {
 nav {
     height: 150px;
 }
-
+#Otros-cursos h4{
+    margin: 20px 30px 20px 20px;
+    font-size: 2em;
+}
 #Otros-cursos nav h2 {
-    margin: 10px;
+    margin: 0px;
     float: left;
 
 }
@@ -261,7 +272,8 @@ nav {
 }
 
 #Otros-cursos nav h3 {
-    width: 200px;
+    margin: 20px 20px 20px 0px;
+    width: 150px;
     float: left;
 
 }
@@ -274,8 +286,6 @@ nav {
 #Otros-cursos .container{
     width: 800px;
     margin: 1 20px;
-    background-color: black;
-    border: #6B33FF;
     border-style: solid;
     border-width: 2px;
 }
@@ -283,7 +293,6 @@ nav {
 #subcontenido .container{
     width: 800px;
     margin: 1 20px;
-    background-color: #6B33FF;
     border: black;
     border-style: solid;
     border-width: 2px;
@@ -293,15 +302,10 @@ aside .container{
     width: 70%;
     height: 900px;
     margin: 1 10px;
-    background-color: #6B33FF;
     border: black;
     border-style: solid;
     border-width: 2px;
     
-}
-
-.like {
-    float: right;
 }
 
 header .img-container {
@@ -322,7 +326,7 @@ header .img-container {
 #contenido .container{
     width: 100%;
     height: 300px;
-    margin: 1 20px;
+    margin: 0px 150px 0px 50px;
 }
 #contenido .contenido-container{
     width: 40%;
@@ -334,9 +338,9 @@ header .img-container {
     float: right;
     padding: 20px;
     background-image: url("imagenes/html.jpg");
-    background-size: 500px;
-    height: 300px;
+    background-size: 550px;
+    height: 250px;
     width: 60%;
-    background-position: top left;
+    background-position: top center;
     background-repeat: no-repeat;
 }
