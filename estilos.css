@@ -245,15 +245,24 @@ aside {
     background-size: cover;
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
 }
-
+.img5 {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    float: left;
+    background-image: url("imagenes/html.png");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5);
+}
 hr {
     width: 90%;
     background-color: rgb(100, 100, 100);
     height: 3px;
 }
 
-nav {
-    height: 150px;
+#Otros-cursos nav {
+    height: 170px;
 }
 #Otros-cursos h4{
     margin: 20px 30px 20px 20px;
@@ -358,10 +367,6 @@ header .nombre-empresa {
 #contenido .img-container{
     float: right;
     padding: 20px;
-    background-image: url("imagenes/html.jpg");
-    background-size: 550px;
     height: 250px;
     width: 60%;
-    background-position: top center;
-    background-repeat: no-repeat;
 }
